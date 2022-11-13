@@ -33,10 +33,10 @@ const categoryData = [
 
 const Category = () => {
   return (
+    <Link to = '/foods'>          
     <Container>
       <Row>
         {categoryData.map((item, index) => (
-                              <Link to = '/foods'>          
                               <Col lg="3" md="4" sm="6" xs="6" className="mb-4" key={index}>
                               <div className="category__item d-flex align-items-center gap-3">
                                 <div className="category__img">
@@ -45,12 +45,11 @@ const Category = () => {
                                 <h6>{item.display}</h6>
                               </div>
                             </Col>
-                            </Link>
-
-
         ))}
       </Row>
     </Container>
+    </Link>
+
   );
 };
 
