@@ -15,11 +15,11 @@ th {
 }
 
 .cart__page-btn button a:hover {
-  color: #fff;
+  background: #ffcb7e;
 }
 
 .cart__subtotal {
-  color: #df2020;
+  color: #b1182b;
   font-size: 1.5rem;
 }
 

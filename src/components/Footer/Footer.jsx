@@ -14,7 +14,7 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className=" footer__logo text-start">
               <img src={logo} alt="logo" />
-              <h5>Tasty Treat</h5>
+              <h5>Sonimod KM Dash</h5>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Nesciunt pariatur accusamus
@@ -26,12 +26,12 @@ const Footer = () => {
             <h5 className="footer__title">Delivery Time</h5>
             <ListGroup className="deliver__time-list">
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Sunday - Thursday</span>
-                <p>10:00am - 11:00pm</p>
+                <span>Monday - Friday</span>
+                <p>10:00am - 10:00pm</p>
               </ListGroupItem>
 
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Friday - Saturday</span>
+                <span>Saturday - Sunday</span>
                 <p>Off day</p>
               </ListGroupItem>
             </ListGroup>
@@ -41,14 +41,14 @@ const Footer = () => {
             <h5 className="footer__title">Contact</h5>
             <ListGroup className="deliver__time-list">
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <p>Location: ZindaBazar, Sylhet-3100, Bangladesh</p>
+                <p>Location: Camperdown NSW 2006, Australia</p>
               </ListGroupItem>
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Phone: 01712345678</span>
+                <span>Phone: 88888888</span>
               </ListGroupItem>
 
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Email: example@gmail.com</span>
+                <span>Email: KM-Dash@sonimod.com</span>
               </ListGroupItem>
             </ListGroup>
           </Col>
@@ -66,12 +66,6 @@ const Footer = () => {
         </Row>
 
         <Row className="mt-5">
-          <Col lg="6" md="6">
-            <p className="copyright__text">
-              Copyright - 2022, website made by Muhibur Rahman. All Rights
-              Reserved.
-            </p>
-          </Col>
           <Col lg="6" md="6">
             <div className="social__links d-flex align-items-center gap-4 justify-content-end">
               <p className="m-0">Follow: </p>

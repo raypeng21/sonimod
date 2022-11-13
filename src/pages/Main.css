@@ -1,0 +1,53 @@
+.main_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center_box{
+    margin-top: -300px;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.biglogo{
+    width: 300px;
+}
+
+.nav_box{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_top{
+    margin: 5px;
+}
+
+.ri-user-location-fill{
+    margin: 10px;
+}
+
+.address_box{
+    background: #ffcb7e;
+    border-color: #ff5710;
+    border-radius: 10px;
+}
+
+.address_box:focus{
+    border-color: #ff5710;
+}
+
+.nav_box button{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: #b1182b;
+    color: #fff;
+}

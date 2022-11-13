@@ -15,6 +15,7 @@ const Layout = () => {
 
       {showCart && <Carts />}
 
+
       <div>
         <Routes />
       </div>

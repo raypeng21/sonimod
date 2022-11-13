@@ -1,5 +1,6 @@
 .hero__content {
   padding-top: 70px;
+  
 }
 
 .hero__title {
@@ -8,7 +9,7 @@
 }
 
 .hero__title span {
-  color: #df2020;
+  color: #b1182b;
 }
 
 .hero__content p {
@@ -27,21 +28,24 @@
 }
 
 .order__btn {
-  background: #df2020;
+  background: #b1182b;
   color: #fff;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .order__btn:hover {
-  background: #212245;
+  background: #621610;
+  text-decoration: none;
+
 }
 .all__foods-btn {
   background: transparent;
-  border: 1px solid #df2020 !important;
+  border: 1px solid #b1182b !important;
 }
 
 .all__foods-btn a {
-  color: #df2020;
+  color: #b1182b;
 }
 
 .hero__service p {
@@ -52,8 +56,12 @@
 
 .shipping__icon i {
   padding: 5px;
-  background: #df2020;
+  background: #358510;
   color: #fff;
   border-radius: 50%;
   font-weight: 500 !important;
+}
+
+a{
+  text-decoration: none;
 }

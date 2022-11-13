@@ -1,8 +1,9 @@
 import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Home from "../pages/Home";
 import AllFoods from "../pages/AllFoods";
+import Main from "../pages/Main";
 import FoodDetails from "../pages/FoodDetails";
 import Cart from "../pages/Cart";
 import Checkout from "../pages/Checkout";
@@ -13,7 +14,7 @@ import Register from "../pages/Register";
 const Routers = () => {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/home" />} />
+      <Route path="/" element={<Main /> } />
       <Route path="/home" element={<Home />} />
       <Route path="/foods" element={<AllFoods />} />
       <Route path="/foods/:id" element={<FoodDetails />} />
