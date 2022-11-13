@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-
 import Home from "../pages/Home";
 import AllFoods from "../pages/AllFoods";
 import Main from "../pages/Main";
@@ -15,12 +14,12 @@ const Routers = () => {
   return (
     <Routes>
       <Route path="/" element={<Main /> } />
-      <Route path="/home" element={<Home />} />
+      <Route path="/sonimod" element={<Home />} />
       <Route path="/foods" element={<AllFoods />} />
       <Route path="/foods/:id" element={<FoodDetails />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/checkout" element={<Checkout />} />
-      <Route path="/login" element={<Login />} />
+      <Route path="/historyOrder" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>

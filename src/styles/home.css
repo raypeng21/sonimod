@@ -77,6 +77,89 @@
   line-height: 30px;
 }
 
+.blind_box_order{
+  position: absolute;
+  top: 250px;
+  left: 80px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: #b1182b 2px solid;
+}
+
+.blind_box_order p{
+font-size: 18px;
+}
+
+.blind_box_order button{
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background: #b1182b;
+  color: #fff;  
+}
+
+
+.history_order{
+  position: absolute;
+  right: 50px;
+  top: 220px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #b1182b 2px solid;
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.history_order p{
+  font-size: 10px;
+  margin-bottom: 0;
+  }
+  
+  .history_list{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .listitem{
+    margin: 10px;
+    border: #b1182b 2px solid;
+    background: #fde4e4;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+  }
+.history_dishes{
+  border: #b1182b 2px solid;
+  margin: 5px;
+}
+  .list_info{
+    font-style: 8px;
+  }
+  .history_order button{
+    font-size: 10px;
+margin: 5px;
+    
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: #b1182b;
+    color: #fff;  }
+  
+  .button_choice{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
 @media only screen and (max-width: 768px) {
   .hero__content h5 {
     font-size: 1rem;

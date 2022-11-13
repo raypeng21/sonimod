@@ -101,7 +101,7 @@ const FoodDetails = () => {
                 </p>
 
                 <button onClick={addItem} className="addTOCart__btn">
-                  Add to Cart
+                  Add
                 </button>
               </div>
             </Col>

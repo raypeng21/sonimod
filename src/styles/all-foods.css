@@ -27,3 +27,93 @@
     font-size: 0.8rem;
   }
 }
+
+
+
+.blind_box_order1{
+  position: absolute;
+  top: 620px;
+  left: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: #b1182b 2px solid;
+}
+
+.blind_box_order1 p{
+font-size: 18px;
+}
+
+.blind_box_order1 button{
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background: #b1182b;
+  color: #fff;  
+}
+
+
+.history_order1{
+  position: absolute;
+  right: 20px;
+  top: 600px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #b1182b 2px solid;
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.history_order1 p{
+  font-size: 10px;
+  margin-bottom: 0;
+  }
+  
+  .history_list1{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .listitem1{
+    margin: 10px;
+    border: #b1182b 2px solid;
+    background: #fde4e4;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+  }
+.history_dishes1{
+  border: #b1182b 2px solid;
+  margin: 5px;
+}
+  .list_info1{
+    font-style: 8px;
+  }
+  .history_order1 button{
+    font-size: 10px;
+margin: 5px;
+    
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: #b1182b;
+    color: #fff;  }
+  
+  .button_choice1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .menu{
+    margin-left: 30px;
+    margin-right: 30px;
+  }

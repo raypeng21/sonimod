@@ -1,48 +1,90 @@
-import React, { useRef } from "react";
+import React from "react";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/common-section/CommonSection";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 
-const Login = () => {
-  const loginNameRef = useRef();
-  const loginPasswordRef = useRef();
+import './login.css';
 
-  const submitHandler = (e) => {
-    e.preventDefault();
-  };
+const Login = () => {
+
 
   return (
     <Helmet title="Login">
-      <CommonSection title="Login" />
+      <CommonSection title="History Order" />
       <section>
         <Container>
           <Row>
             <Col lg="6" md="6" sm="12" className="m-auto text-center">
-              <form className="form mb-5" onSubmit={submitHandler}>
-                <div className="form__group">
-                  <input
-                    type="email"
-                    placeholder="Email"
-                    required
-                    ref={loginNameRef}
-                  />
+            <div className="history_order00">
+                <div className="history_list00">
+                  <div className="listitem00">
+                    <p>Sample Restaurant</p>
+                    <p>Order Number: 8888888</p>
+                    <p>Address: 111 Address Road</p>
+                    <p>Jan 1, 2030</p>
+                    <p>Status: Compoleted</p>
+
+
+                    <div className="history_dishes00">
+                      <p>1       Sample Dishes #1      $9.99</p>
+                      <p>2       Sample Dishes #2      $9.99</p>
+                      <p>3       Sample Dishes #3      $9.99</p>
+                      <p>Tax:                          $9.99</p>
+                      <p>Total(Aud):                   $99.99</p>
+                    </div>
+
+                    <div className="button_choice00">
+                    <Link to = '/checkout'><button>Same Order Again</button></Link>
+                    <Link to = '/foods'><button>Order From Here</button></Link>
+                    </div>
+                  </div>
+
+                  <div className="listitem00">
+                    <p>Sample Restaurant</p>
+                    <p>Order Number: 8888888</p>
+                    <p>Address: 111 Address Road</p>
+                    <p>Jan 1, 2030</p>
+                    <p>Status: Compoleted</p>
+
+
+                    <div className="history_dishes00">
+                      <p>1       Sample Dishes #1      $9.99</p>
+                      <p>2       Sample Dishes #2      $9.99</p>
+                      <p>3       Sample Dishes #3      $9.99</p>
+                      <p>Tax:                          $9.99</p>
+                      <p>Total(Aud):                   $99.99</p>
+                    </div>
+
+                    <div className="button_choice00">
+                    <Link to = '/checkout'><button>Same Order Again</button></Link>
+                    <Link to = '/foods'><button>Order From Here</button></Link>
+                    </div>
+                  </div>
+
+                  <div className="listitem00">
+                    <p>Sample Restaurant</p>
+                    <p>Order Number: 8888888</p>
+                    <p>Address: 111 Address Road</p>
+                    <p>Jan 1, 2030</p>
+                    <p>Status: Compoleted</p>
+
+
+                    <div className="history_dishes00">
+                      <p>1       Sample Dishes #1      $9.99</p>
+                      <p>2       Sample Dishes #2      $9.99</p>
+                      <p>3       Sample Dishes #3      $9.99</p>
+                      <p>Tax:                          $9.99</p>
+                      <p>Total(Aud):                   $99.99</p>
+                    </div>
+
+                    <div className="button_choice00">
+                    <Link to = '/checkout'><button>Same Order Again</button></Link>
+                    <Link to = '/foods'><button>Order From Here</button></Link>
+                    </div>
+                  </div>
                 </div>
-                <div className="form__group">
-                  <input
-                    type="password"
-                    placeholder="Password"
-                    required
-                    ref={loginPasswordRef}
-                  />
-                </div>
-                <button type="submit" className="addTOCart__btn">
-                  Login
-                </button>
-              </form>
-              <Link to="/register">
-                Don't have an account? Create an account
-              </Link>
+              </div>
             </Col>
           </Row>
         </Container>

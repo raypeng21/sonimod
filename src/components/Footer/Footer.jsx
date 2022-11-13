@@ -1,11 +1,7 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import logo from "../../assets/images/res-logo.png";
-
 import "../../styles/footer.css";
-
-import { Link } from "react-router-dom";
-
 const Footer = () => {
   return (
     <footer className="footer">
@@ -71,29 +67,21 @@ const Footer = () => {
               <p className="m-0">Follow: </p>
               <span>
                 {" "}
-                <Link to="https://www.facebook.com/muhib160">
                   <i class="ri-facebook-line"></i>
-                </Link>{" "}
               </span>
 
               <span>
-                <Link to="https://github.com/muhib160">
                   <i class="ri-github-line"></i>
-                </Link>
               </span>
 
               <span>
                 {" "}
-                <Link to=" https://www.youtube.com/c/MuhibsTechDiary">
                   <i class="ri-youtube-line"></i>
-                </Link>{" "}
               </span>
 
               <span>
                 {" "}
-                <Link to=" https://www.linkedin.com/in/muhib160/">
                   <i class="ri-linkedin-line"></i>
-                </Link>{" "}
               </span>
             </div>
           </Col>

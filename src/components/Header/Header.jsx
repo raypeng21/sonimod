@@ -1,18 +1,15 @@
 import React, { useRef, useEffect } from "react";
-
 import { Container } from "reactstrap";
 import logo from "../../assets/images/res-logo.png";
 import { NavLink, Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-
 import { cartUiActions } from "../../store/shopping-cart/cartUiSlice";
-
 import "../../styles/header.css";
 
 const nav__links = [
   {
-    display: "Home",
-    path: "/home",
+    display: "Sonimod Stores",
+    path: "/sonimod",
   },
   {
     display: "Foods",
@@ -22,10 +19,7 @@ const nav__links = [
     display: "Cart",
     path: "/cart",
   },
-  {
-    display: "Contact",
-    path: "/contact",
-  },
+
 ];
 
 const Header = () => {
@@ -59,10 +53,13 @@ const Header = () => {
     <header className="header" ref={headerRef}>
       <Container>
         <div className="nav__wrapper d-flex align-items-center justify-content-between">
+        <Link to="/">
           <div className="logo">
             <img src={logo} alt="logo" />
             <h5>Sonimod</h5>
           </div>
+
+          </Link>
 
           {/* ======= menu ======= */}
           <div className="navigation" ref={menuRef} onClick={toggleMenu}>
@@ -89,7 +86,7 @@ const Header = () => {
             </span>
 
             <span className="user">
-              <Link to="/login">
+              <Link to="/historyOrder">
                 <i class="ri-user-line"></i>
               </Link>
             </span>

@@ -1,0 +1,49 @@
+.history_order00{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+
+  }
+  
+  .history_order00 p{
+    font-size: 10px;
+    margin-bottom: 0;
+    }
+    
+    .history_list00{
+      display: flex;
+      flex-direction: row;
+      
+    }
+  
+    .listitem00{
+      margin: 10px;
+      border: #b1182b 2px solid;
+      background: #fde4e4;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      
+    }
+  .history_dishes00{
+    border: #b1182b 2px solid;
+    margin: 5px;
+  }
+    .list_info00{
+      font-style: 8px;
+    }
+    .history_order00 button{
+      font-size: 10px;
+  margin: 5px;
+      
+      width: 100px;
+      height: 50px;
+      border-radius: 10px;
+      background: #b1182b;
+      color: #fff;  }
+    
+    .button_choice00{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }

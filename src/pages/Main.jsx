@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../assets/images/logo_main.png";
-import { NavLink, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 import  './Main.css';
 
 function Main() {
@@ -14,7 +14,7 @@ function Main() {
                     <input className='address_box' type="text" placeholder='  Enter your address' />
                     </div>
                     <div className="nav_bottom">
-                    <Link to="/home">
+                    <Link to="/sonimod">
                     <button className='main_button'> Start your Sonimod Order  </button>
 
                     </Link>
